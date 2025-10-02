@@ -1,0 +1,213 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F883 ]
+[d frameptr 0 ]
+"5 /Applications/microchip/xc8/v3.10/pic/sources/c99/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 /Applications/microchip/xc8/v3.10/pic/sources/c99/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"10 /Applications/microchip/xc8/v3.10/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 /Applications/microchip/xc8/v3.10/pic/sources/c99/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 /Applications/microchip/xc8/v3.10/pic/sources/c99/pic/__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"49 /Users/minseokim/Documents/01_Classes/25f/ece459/Tutorial/Counter_Stopwatch.X/main.c
+[v _display display `(v  1 e 1 0 ]
+"77
+[v _tmr1_load_1ms tmr1_load_1ms `T(v  1 s 1 tmr1_load_1ms ]
+[v i1_tmr1_load_1ms tmr1_load_1ms `T(v  1 s 1 i1_tmr1_load_1ms ]
+"82
+[v _tmr1_init_1ms_tick tmr1_init_1ms_tick `(v  1 s 1 tmr1_init_1ms_tick ]
+"97
+[v _isr isr `II(v  1 e 1 0 ]
+"131
+[v _main main `(v  1 e 1 0 ]
+[s S165 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"183 /Applications/microchip/mplabx/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f883.h
+[u S174 . 1 `S165 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES174  1 e 1 @5 ]
+[s S137 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"245
+[u S146 . 1 `S137 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES146  1 e 1 @6 ]
+"290
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+[s S105 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"403
+[s S114 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S119 . 1 `S105 1 . 1 0 `S114 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES119  1 e 1 @11 ]
+[s S67 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"474
+[u S75 . 1 `S67 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES75  1 e 1 @12 ]
+"578
+[v _TMR1L TMR1L `VEuc  1 e 1 @14 ]
+"585
+[v _TMR1H TMR1H `VEuc  1 e 1 @15 ]
+[s S24 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 TMR1CS 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 T1OSCEN 1 0 :1:3 
+`uc 1 T1CKPS 1 0 :2:4 
+`uc 1 TMR1GE 1 0 :1:6 
+`uc 1 T1GINV 1 0 :1:7 
+]
+"621
+[s S32 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T1INSYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T1GIV 1 0 :1:7 
+]
+[s S40 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T1SYNC 1 0 :1:2 
+]
+[u S43 . 1 `S24 1 . 1 0 `S32 1 . 1 0 `S40 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES43  1 e 1 @16 ]
+"1337
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1399
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1461
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+[s S86 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+]
+"1560
+[u S94 . 1 `S86 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES94  1 e 1 @140 ]
+"2258
+[v _IOCB IOCB `VEuc  1 e 1 @150 ]
+"3229
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3273
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"44 /Users/minseokim/Documents/01_Classes/25f/ece459/Tutorial/Counter_Stopwatch.X/main.c
+[v _LOW LOW `uc  1 e 1 0 ]
+"45
+[v _HIGH HIGH `uc  1 e 1 0 ]
+"46
+[v _options options `[10]uc  1 e 10 0 ]
+"69
+[v _ms_bucket ms_bucket `VEui  1 e 2 0 ]
+"70
+[v _centiseconds centiseconds `VEul  1 e 4 0 ]
+"73
+[v _paused paused `i  1 e 2 0 ]
+"74
+[v _last_button1 last_button1 `i  1 e 2 0 ]
+"75
+[v _last_button2 last_button2 `i  1 e 2 0 ]
+"131
+[v _main main `(v  1 e 1 0 ]
+{
+"161
+} 0
+"82
+[v _tmr1_init_1ms_tick tmr1_init_1ms_tick `(v  1 s 1 tmr1_init_1ms_tick ]
+{
+"94
+} 0
+"77
+[v _tmr1_load_1ms tmr1_load_1ms `T(v  1 s 1 tmr1_load_1ms ]
+{
+"80
+} 0
+"97
+[v _isr isr `II(v  1 e 1 0 ]
+{
+"128
+} 0
+"77
+[v i1_tmr1_load_1ms tmr1_load_1ms `T(v  1 s 1 i1_tmr1_load_1ms ]
+{
+"80
+} 0
+"49
+[v _display display `(v  1 e 1 0 ]
+{
+"57
+[v display@norm norm `i  1 a 2 8 ]
+"60
+[v display@high_201 high `i  1 a 2 6 ]
+"58
+[v display@low_200 low `i  1 a 2 4 ]
+"53
+[v display@high high `i  1 a 2 2 ]
+"51
+[v display@low low `i  1 a 2 0 ]
+"49
+[v display@number number `i  1 p 2 8 ]
+"63
+} 0
+"5 /Applications/microchip/xc8/v3.10/pic/sources/c99/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"34
+} 0
+"5 /Applications/microchip/xc8/v3.10/pic/sources/c99/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
